@@ -15,6 +15,7 @@ if compra >= 300000:
     descuento = 0.30 * compra
     
 descuento = 0.05 * Tipo_Polo + 0.30 * compra
-    
+
+print("Monto total: ", compra)
 print("Total a pagar: ", compra - descuento)
 print("Total descuento:", descuento)
